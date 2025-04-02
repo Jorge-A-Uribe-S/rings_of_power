@@ -30,21 +30,23 @@ for i in range(-(total_number_of_rings_int), 1):
     if prime_number(positive_number) == True:
         dwarfs = positive_number
         dwarfs = int(dwarfs)
-        d = 1
         break
     else:
         pass
 total_number_of_rings_int = total_number_of_rings_int - dwarfs
 
-print(f"Rings for Dwarfs ----- {dwarfs}")
-print(f"Rings left to distribute {total_number_of_rings_int}")
 
-sauron = (total_number_of_rings_int - (total_number_of_rings_int - 1))
-total_number_of_rings_int = total_number_of_rings_int - sauron
-negative = 
+if total_number_of_rings_int <= 0:
+    print("The rest of the rings cannot be distributed, next time try with another number of rings")
+else:
+    print(f"Rings for Dwarfs ----- {dwarfs}")
+    print(f"Rings left to distribute {total_number_of_rings_int}")
 
-print(f"Rings for Sauron ----- {sauron}")
-print(f"Rings left to distribute {total_number_of_rings_int}")
+    sauron = (total_number_of_rings_int - (total_number_of_rings_int - 1))
+    total_number_of_rings_int = total_number_of_rings_int - sauron
+
+    print(f"Rings for Sauron ----- {sauron}")
+    print(f"Rings left to distribute {total_number_of_rings_int}")
 """
 for i in range(total_number_of_rings_int, 0, -1):
     i = str(i)
