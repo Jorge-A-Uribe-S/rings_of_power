@@ -1,4 +1,4 @@
-total_number = 0
+"""total_number = 0
 rings = input("how many rings --- ")
 for number in rings:
     int_number = int(number)
@@ -10,4 +10,11 @@ for number in rings:
         result = "It is a prime number"
 residuo = 108 % 3
 print(result)
-print(f"resultado residuo --- {residuo}")
+print(f"resultado residuo --- {residuo}")"
+"""
+
+
+
+
+
+    

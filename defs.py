@@ -1,9 +1,9 @@
 def prime():
-    result = "It is a prime number"
+    result = True
     return result
 
 def not_prime():
-    result = "It is NOT a primer number"
+    result = False
     return result
 
 def prime_number(rings):
@@ -31,5 +31,9 @@ def prime_number(rings):
             
     return result
         
-    
+def check_if_negative_number(number):
+    if number < 0:
+        outcome = False
+        return outcome
+
 
